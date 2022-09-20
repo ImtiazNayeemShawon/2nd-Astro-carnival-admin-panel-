@@ -7,7 +7,7 @@ import Participants from "./components/Participants";
 import Visitor from "./components/Visitor";
 import Verfication from "./components/Varification";
 import Admin from "./components/Admin";
-import "./components/Styles/Global.css";
+import "./components/Styles/Global.css"
 
 function App() {
   return (
