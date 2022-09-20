@@ -54,7 +54,7 @@ export default function PartcipantsDataTable() {
           </TableHead>
           <TableBody>
             {Participants.filter((item) => {
-              if (search == "") {
+              if (search === "") {
                 return item;
               } else if (
                 item.first.toLowerCase().includes(search.toLowerCase())
