@@ -1,0 +1,25 @@
+.Data_field {
+  margin: 70px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: block;
+  padding: 100px;
+  border-radius: 10px;
+  margin-left: 25px;
+}
+
+.Data_field label {
+  font-size: 15px;
+  color: #413131;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.Data_field Button {
+  background-color: #f6f8fc;
+  width: 250px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: none;
+}

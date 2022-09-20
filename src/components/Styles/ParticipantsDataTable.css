@@ -1,0 +1,23 @@
+.ParticipantsDataTable .dlt-btn {
+  background-color: #f31616;
+}
+.ParticipantsDataTable {
+  max-height: 500px;
+  border-radius: 20px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fffdfd; 
+}
+@media only screen and (max-width: 768px) {
+}

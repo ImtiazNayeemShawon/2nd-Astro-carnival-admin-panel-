@@ -1,0 +1,41 @@
+.Sidebar {
+  padding: 20px;
+  width: 250px;
+  background-color: #f6f7ff;
+  height: 900px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+.Route Button {
+  width: 150px;
+  margin: 20px;
+  padding: 10px;
+  font-weight: 600;
+  background-color:  #f6f7ff;
+  color: #5d5d61;
+}
+.Route Button:hover {
+  background-color: #ffffff;
+}
+.Route {
+  text-align: center;
+  display: block;
+}
+.Route Link {
+  margin-top: 20px;
+  background-color: #040542;
+}
+#Avatar {
+  margin-left: 40%;
+}
+#D-logo{
+  height: 200px;
+}
+@media only screen and (max-width: 768px) {
+  .Sidebar {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+  }
+}

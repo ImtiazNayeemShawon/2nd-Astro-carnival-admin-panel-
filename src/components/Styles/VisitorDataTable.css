@@ -1,0 +1,24 @@
+.VisitorDataTable .dlt-btn {
+  background-color: #f31616;
+}
+.VisitorDataTable {
+  max-height: 510px;
+  border-radius: 20px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fffdfd;
+}
+
+@media only screen and (max-width: 768px) {
+}

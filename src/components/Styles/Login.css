@@ -1,0 +1,97 @@
+.LoginPage {
+  margin: auto;
+  padding: 10px;
+  width: 70%;
+  margin-top: 15%;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+}
+.Input_field h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+.Input_field {
+  background-color: #ffffff;
+  padding: 100px;
+  border-radius: 10px;
+}
+.Input_field label {
+  font-size: 15px;
+  color: #413131;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.Input_field input {
+  border: none;
+  background-color: #f6f8fc;
+  padding: 8px;
+  width: 110%;
+  outline: none;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+.Input_field Button {
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 25%;
+  margin-top: 20px;
+  background-color: #040542;
+}
+.LogoSide img {
+  width: 300px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.Logo-top {
+  display: none;
+}
+@media only screen and (max-width: 765px) {
+  .LoginPage {
+    margin: auto;
+    padding: 1px;
+    width: 95%;
+    margin-top: 10%;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+  }
+  .Input_field {
+    padding: 50px;
+    background-color: #ffffff;
+  }
+  .Input_field input {
+    border: none;
+    background-color: #f6f8fc;
+    padding: 7px;
+    width: 90%;
+    outline: none;
+    border-radius: 7px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .Input_field Button {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-top: 20px;
+    background-color: #040542;
+  }
+  .LogoSide {
+    display: none;
+  }
+  .LoginPage img {
+    display: block;
+    width: 300px;
+    margin-left: 10%;
+    margin-right: 25%;
+    height: 250px;
+  }
+  .LoginPage h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,9 @@
+.Topbar {
+  background-color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
+  color:rgb(6, 6, 39);
+}
+.Topbar #D-logo {
+  width: 70px;
+}

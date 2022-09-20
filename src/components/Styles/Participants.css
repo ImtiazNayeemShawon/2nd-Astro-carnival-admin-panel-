@@ -1,0 +1,16 @@
+.ParticipantsData {
+  position: absolute;
+}
+.ParticipantsData .Intro h1 {
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: "Oswald", sans-serif;
+}
+
+.ParticipantsData .Astro {
+  width: 92%;
+  height: 80%;
+  border-radius: 20px;
+  margin: 1px;
+}
+
