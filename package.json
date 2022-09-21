@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^14.4.3",
     "animate.css": "^4.1.1",
     "axios": "^0.27.2",
+    "html5-qrcode": "^2.2.1",
     "react-dom": "^18.2.0",
     "react-qr-scanner": "^1.0.0-alpha.11",
     "react-redux": "^8.0.2",

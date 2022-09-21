@@ -4,7 +4,7 @@ import { Grid, Button } from "@mui/material";
 import "./Styles/Verification.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import QR from "./Qr";
+import Qr from "./QR Scanner/QR";
 
 export default function Verification() {
   const [Data, setData] = useState([]);
@@ -46,11 +46,14 @@ export default function Verification() {
                 <label>Status</label> <br />
                 <Button variant="outlined">{Data.status}</Button>
                 <br />
+                <Button id="days" variant="contained">Day:1</Button>
+                <Button id="days" variant="contained">Day:2</Button>
+                <Button id="days" variant="contained">Day:3</Button>
               </div>
             </Grid>
             <Grid item={6}>
               <div className="Scanner animate__animated animate__backInUp shadow-lg shadow-indigo-500/50">
-                <QR />
+                <Qr />
               </div>
             </Grid>
           </Grid>

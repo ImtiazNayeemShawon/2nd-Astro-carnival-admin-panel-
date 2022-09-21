@@ -24,5 +24,17 @@
   text-transform: none;
 }
 .Scanner{
-display: block;
+  margin-top: 70px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: block;
+  padding-bottom:130px;
+
+ 
+}
+#days{
+width: 20px;
+background-color: rgb(17, 12, 255);
+padding: 30px;
+margin: 10px;
 }
